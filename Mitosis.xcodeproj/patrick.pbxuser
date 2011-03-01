@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* MitosisAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1138, 555}}";
+			sepNavSelRange = "{328, 0}";
+			sepNavVisRange = "{0, 385}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1138, 1612}}";
+			sepNavSelRange = "{1020, 0}";
+			sepNavVisRange = "{2300, 1519}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CD6CBE4A131744EA006B3C01 /* Mitosis */;
+		activeTarget = 8D1107260486CEB800E47090 /* Mitosis */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Mitosis */,
+		);
+		codeSenseManager = CD6CBE581317451D006B3C01 /* Code sense */;
+		executables = (
+			CD6CBE4A131744EA006B3C01 /* Mitosis */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					302.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					960,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					453,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320572854;
+			PBXWorkspaceStateSaveDate = 320572854;
+		};
+		perUserProjectItems = {
+			CD34D4281317517B00264C84 = CD34D4281317517B00264C84 /* PBXBookmark */;
+			CD34D4291317517B00264C84 = CD34D4291317517B00264C84 /* PBXTextBookmark */;
+			CD34D53A131B8D1D00264C84 = CD34D53A131B8D1D00264C84 /* PBXTextBookmark */;
+			CD8EF11B131B8D2C00E8D6E6 = CD8EF11B131B8D2C00E8D6E6 /* PBXTextBookmark */;
+			CD8EF120131B8D4F00E8D6E6 = CD8EF120131B8D4F00E8D6E6 /* PBXTextBookmark */;
+			CD8EF150131B8DCB00E8D6E6 /* PBXTextBookmark */ = CD8EF150131B8DCB00E8D6E6 /* PBXTextBookmark */;
+			CD8EF154131B8DFD00E8D6E6 /* PBXTextBookmark */ = CD8EF154131B8DFD00E8D6E6 /* PBXTextBookmark */;
+			CD8EF173131B8E6200E8D6E6 /* PBXTextBookmark */ = CD8EF173131B8E6200E8D6E6 /* PBXTextBookmark */;
+			CD8EF20E131B8E8900E8D6E6 /* PBXTextBookmark */ = CD8EF20E131B8E8900E8D6E6 /* PBXTextBookmark */;
+			CD8EF216131CAA5300E8D6E6 /* PBXTextBookmark */ = CD8EF216131CAA5300E8D6E6 /* PBXTextBookmark */;
+			CD8EF218131CAA5300E8D6E6 /* PBXTextBookmark */ = CD8EF218131CAA5300E8D6E6 /* PBXTextBookmark */;
+			CD8EF219131CAA5300E8D6E6 /* PBXTextBookmark */ = CD8EF219131CAA5300E8D6E6 /* PBXTextBookmark */;
+			CD8EF21A131CAA5300E8D6E6 /* PBXTextBookmark */ = CD8EF21A131CAA5300E8D6E6 /* PBXTextBookmark */;
+			CD8EF228131CAF2000E8D6E6 /* PBXTextBookmark */ = CD8EF228131CAF2000E8D6E6 /* PBXTextBookmark */;
+			CD8EF22A131CAF2000E8D6E6 /* PBXTextBookmark */ = CD8EF22A131CAF2000E8D6E6 /* PBXTextBookmark */;
+			CD8EF22B131CAF2000E8D6E6 /* PBXTextBookmark */ = CD8EF22B131CAF2000E8D6E6 /* PBXTextBookmark */;
+			CD8EF22D131CAF2000E8D6E6 /* PBXTextBookmark */ = CD8EF22D131CAF2000E8D6E6 /* PBXTextBookmark */;
+			CD8EF22E131CAF2000E8D6E6 /* PBXTextBookmark */ = CD8EF22E131CAF2000E8D6E6 /* PBXTextBookmark */;
+			CD8EF22F131CAF2000E8D6E6 /* PBXTextBookmark */ = CD8EF22F131CAF2000E8D6E6 /* PBXTextBookmark */;
+			CD8EF238131CAFBE00E8D6E6 /* PBXTextBookmark */ = CD8EF238131CAFBE00E8D6E6 /* PBXTextBookmark */;
+			CD8EF248131CB06800E8D6E6 /* PBXTextBookmark */ = CD8EF248131CB06800E8D6E6 /* PBXTextBookmark */;
+			CD8EF24A131CB06800E8D6E6 /* PBXTextBookmark */ = CD8EF24A131CB06800E8D6E6 /* PBXTextBookmark */;
+			CD8EF24B131CB06800E8D6E6 /* PBXTextBookmark */ = CD8EF24B131CB06800E8D6E6 /* PBXTextBookmark */;
+			CD8EF251131CB1DF00E8D6E6 /* PBXTextBookmark */ = CD8EF251131CB1DF00E8D6E6 /* PBXTextBookmark */;
+			CD8EF259131CB22900E8D6E6 /* PBXTextBookmark */ = CD8EF259131CB22900E8D6E6 /* PBXTextBookmark */;
+			CD8EF26C131CB44900E8D6E6 /* PBXTextBookmark */ = CD8EF26C131CB44900E8D6E6 /* PBXTextBookmark */;
+			CD8EF26D131CB44900E8D6E6 /* PBXTextBookmark */ = CD8EF26D131CB44900E8D6E6 /* PBXTextBookmark */;
+			CD8EF26E131CB44900E8D6E6 /* PBXTextBookmark */ = CD8EF26E131CB44900E8D6E6 /* PBXTextBookmark */;
+			CD8EF272131CB5D800E8D6E6 /* PBXTextBookmark */ = CD8EF272131CB5D800E8D6E6 /* PBXTextBookmark */;
+			CD8EF274131CB5D800E8D6E6 /* PBXTextBookmark */ = CD8EF274131CB5D800E8D6E6 /* PBXTextBookmark */;
+			CD8EF275131CB5D800E8D6E6 /* PBXTextBookmark */ = CD8EF275131CB5D800E8D6E6 /* PBXTextBookmark */;
+			CD8EF27A131CB61100E8D6E6 /* PBXTextBookmark */ = CD8EF27A131CB61100E8D6E6 /* PBXTextBookmark */;
+			CD8EF27E131CB64400E8D6E6 /* PBXTextBookmark */ = CD8EF27E131CB64400E8D6E6 /* PBXTextBookmark */;
+			CD8EF282131CB69B00E8D6E6 /* PBXTextBookmark */ = CD8EF282131CB69B00E8D6E6 /* PBXTextBookmark */;
+			CD8EF288131CB6D400E8D6E6 /* PBXTextBookmark */ = CD8EF288131CB6D400E8D6E6 /* PBXTextBookmark */;
+			CD8EF28A131CB9B000E8D6E6 /* PBXTextBookmark */ = CD8EF28A131CB9B000E8D6E6 /* PBXTextBookmark */;
+			CD8EF28B131CB9B000E8D6E6 /* PBXTextBookmark */ = CD8EF28B131CB9B000E8D6E6 /* PBXTextBookmark */;
+			CD8EF28C131CB9B000E8D6E6 /* PBXTextBookmark */ = CD8EF28C131CB9B000E8D6E6 /* PBXTextBookmark */;
+			CD8EF295131CBB0500E8D6E6 /* PBXTextBookmark */ = CD8EF295131CBB0500E8D6E6 /* PBXTextBookmark */;
+			CD8EF299131CBB4900E8D6E6 /* PBXTextBookmark */ = CD8EF299131CBB4900E8D6E6 /* PBXTextBookmark */;
+			CD8EF29E131CBB6600E8D6E6 /* PBXTextBookmark */ = CD8EF29E131CBB6600E8D6E6 /* PBXTextBookmark */;
+			CD8EF2A2131CBBAD00E8D6E6 /* PBXTextBookmark */ = CD8EF2A2131CBBAD00E8D6E6 /* PBXTextBookmark */;
+			CD8EF2A9131CBD1F00E8D6E6 /* PBXTextBookmark */ = CD8EF2A9131CBD1F00E8D6E6 /* PBXTextBookmark */;
+			CD8EF2AA131CBD1F00E8D6E6 /* PBXTextBookmark */ = CD8EF2AA131CBD1F00E8D6E6 /* PBXTextBookmark */;
+			CD8EF2AB131CBD1F00E8D6E6 /* PBXTextBookmark */ = CD8EF2AB131CBD1F00E8D6E6 /* PBXTextBookmark */;
+			CD8EF2AC131CBD1F00E8D6E6 /* PBXTextBookmark */ = CD8EF2AC131CBD1F00E8D6E6 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CD6CBE571317451D006B3C01 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* Mitosis */ = {
+		activeExec = 0;
+		executables = (
+			CD6CBE4A131744EA006B3C01 /* Mitosis */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Mitosis-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	CD34D4281317517B00264C84 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CD6CBE6613174785006B3C01 /* octocat.jpeg */;
+	};
+	CD34D4291317517B00264C84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* MitosisAppDelegate.h */;
+		name = "MitosisAppDelegate.h: 13";
+		rLen = 0;
+		rLoc = 329;
+		rType = 0;
+		vrLen = 343;
+		vrLoc = 0;
+	};
+	CD34D53A131B8D1D00264C84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 926;
+		vrLoc = 0;
+	};
+	CD34D540131B8D1D00264C84 /* YAMLSerialization.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = YAMLSerialization.h;
+		path = /Users/patrick/Desktop/Mitosis/YAML.framework/build/Debug/YAML.framework/Headers/YAMLSerialization.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1138, 767}}";
+			sepNavSelRange = "{1570, 12}";
+			sepNavVisRange = "{461, 1257}";
+		};
+	};
+	CD6CBE4A131744EA006B3C01 /* Mitosis */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Mitosis;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CD6CBE571317451D006B3C01 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CD6CBE581317451D006B3C01 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CD8EF11B131B8D2C00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD34D540131B8D1D00264C84 /* YAMLSerialization.h */;
+		name = "YAMLSerialization.h: 2";
+		rLen = 17;
+		rLoc = 7;
+		rType = 0;
+		vrLen = 1008;
+		vrLoc = 0;
+	};
+	CD8EF120131B8D4F00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 926;
+		vrLoc = 0;
+	};
+	CD8EF150131B8DCB00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 170;
+		rType = 0;
+		vrLen = 913;
+		vrLoc = 0;
+	};
+	CD8EF154131B8DFD00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 170;
+		rType = 0;
+		vrLen = 913;
+		vrLoc = 0;
+	};
+	CD8EF173131B8E6200E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 170;
+		rType = 0;
+		vrLen = 913;
+		vrLoc = 0;
+	};
+	CD8EF20E131B8E8900E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 9";
+		rLen = 0;
+		rLoc = 170;
+		rType = 0;
+		vrLen = 913;
+		vrLoc = 0;
+	};
+	CD8EF216131CAA5300E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD8EF217131CAA5300E8D6E6 /* YAMLSerialization.h */;
+		name = "YAMLSerialization.h: 54";
+		rLen = 12;
+		rLoc = 1570;
+		rType = 0;
+		vrLen = 1446;
+		vrLoc = 272;
+	};
+	CD8EF217131CAA5300E8D6E6 /* YAMLSerialization.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = YAMLSerialization.h;
+		path = /Users/patrick/Library/Frameworks/YAML.framework/Versions/A/Headers/YAMLSerialization.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1138, 806}}";
+			sepNavSelRange = "{263, 4}";
+			sepNavVisRange = "{0, 1234}";
+		};
+	};
+	CD8EF218131CAA5300E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* MitosisAppDelegate.h */;
+		name = "MitosisAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 301;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	CD8EF219131CAA5300E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 39";
+		rLen = 0;
+		rLoc = 3284;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 0;
+	};
+	CD8EF21A131CAA5300E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 39";
+		rLen = 0;
+		rLoc = 3284;
+		rType = 0;
+		vrLen = 1175;
+		vrLoc = 0;
+	};
+	CD8EF228131CAF2000E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD8EF229131CAF2000E8D6E6 /* MacTypes.h */;
+		name = "MacTypes.h: 69";
+		rLen = 21;
+		rLoc = 1604;
+		rType = 0;
+		vrLen = 1574;
+		vrLoc = 1046;
+	};
+	CD8EF229131CAF2000E8D6E6 /* MacTypes.h */ = {
+		isa = PBXFileReference;
+		name = MacTypes.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers/MacTypes.h;
+		sourceTree = "<absolute>";
+	};
+	CD8EF22A131CAF2000E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD8EF217131CAA5300E8D6E6 /* YAMLSerialization.h */;
+		name = "YAMLSerialization.h: 11";
+		rLen = 4;
+		rLoc = 263;
+		rType = 0;
+		vrLen = 1234;
+		vrLoc = 0;
+	};
+	CD8EF22B131CAF2000E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD8EF22C131CAF2000E8D6E6 /* yaml.h */;
+		name = "yaml.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1453;
+		vrLoc = 17230;
+	};
+	CD8EF22C131CAF2000E8D6E6 /* yaml.h */ = {
+		isa = PBXFileReference;
+		name = yaml.h;
+		path = /Users/patrick/Desktop/Mitosis/YAML.framework/build/Debug/YAML.framework/Headers/yaml.h;
+		sourceTree = "<absolute>";
+	};
+	CD8EF22D131CAF2000E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD34D540131B8D1D00264C84 /* YAMLSerialization.h */;
+		name = "YAMLSerialization.h: 6";
+		rLen = 0;
+		rLoc = 158;
+		rType = 0;
+		vrLen = 1234;
+		vrLoc = 0;
+	};
+	CD8EF22E131CAF2000E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 52";
+		rLen = 0;
+		rLoc = 3284;
+		rType = 0;
+		vrLen = 1254;
+		vrLoc = 343;
+	};
+	CD8EF22F131CAF2000E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 485;
+		rType = 0;
+		vrLen = 1433;
+		vrLoc = 941;
+	};
+	CD8EF238131CAFBE00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 58";
+		rLen = 0;
+		rLoc = 3128;
+		rType = 0;
+		vrLen = 1547;
+		vrLoc = 920;
+	};
+	CD8EF248131CB06800E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD8EF249131CB06800E8D6E6 /* NSStream.h */;
+		name = "NSStream.h: 69";
+		rLen = 37;
+		rLoc = 2807;
+		rType = 0;
+		vrLen = 2294;
+		vrLoc = 1693;
+	};
+	CD8EF249131CB06800E8D6E6 /* NSStream.h */ = {
+		isa = PBXFileReference;
+		name = NSStream.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSStream.h;
+		sourceTree = "<absolute>";
+	};
+	CD8EF24A131CB06800E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 53";
+		rLen = 14;
+		rLoc = 2877;
+		rType = 0;
+		vrLen = 1549;
+		vrLoc = 922;
+	};
+	CD8EF24B131CB06800E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 62";
+		rLen = 0;
+		rLoc = 3283;
+		rType = 0;
+		vrLen = 1496;
+		vrLoc = 922;
+	};
+	CD8EF251131CB1DF00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 56";
+		rLen = 0;
+		rLoc = 2961;
+		rType = 0;
+		vrLen = 1523;
+		vrLoc = 922;
+	};
+	CD8EF259131CB22900E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 67";
+		rLen = 0;
+		rLoc = 3283;
+		rType = 0;
+		vrLen = 1397;
+		vrLoc = 922;
+	};
+	CD8EF26C131CB44900E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD34D540131B8D1D00264C84 /* YAMLSerialization.h */;
+		name = "YAMLSerialization.h: 54";
+		rLen = 12;
+		rLoc = 1570;
+		rType = 0;
+		vrLen = 1257;
+		vrLoc = 461;
+	};
+	CD8EF26D131CB44900E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 61";
+		rLen = 9;
+		rLoc = 2998;
+		rType = 0;
+		vrLen = 1397;
+		vrLoc = 922;
+	};
+	CD8EF26E131CB44900E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 56";
+		rLen = 0;
+		rLoc = 2961;
+		rType = 0;
+		vrLen = 1286;
+		vrLoc = 1175;
+	};
+	CD8EF272131CB5D800E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD8EF273131CB5D800E8D6E6 /* NSFileManager.h */;
+		name = "NSFileManager.h: 168";
+		rLen = 0;
+		rLoc = 12168;
+		rType = 0;
+		vrLen = 3477;
+		vrLoc = 10479;
+	};
+	CD8EF273131CB5D800E8D6E6 /* NSFileManager.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSFileManager.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSFileManager.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4527, 5343}}";
+			sepNavSelRange = "{13646, 43}";
+			sepNavVisRange = "{12142, 3725}";
+		};
+	};
+	CD8EF274131CB5D800E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 56";
+		rLen = 0;
+		rLoc = 2491;
+		rType = 0;
+		vrLen = 1425;
+		vrLoc = 958;
+	};
+	CD8EF275131CB5D800E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 64";
+		rLen = 0;
+		rLoc = 2961;
+		rType = 0;
+		vrLen = 1648;
+		vrLoc = 1129;
+	};
+	CD8EF27A131CB61100E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 61";
+		rLen = 0;
+		rLoc = 2653;
+		rType = 0;
+		vrLen = 1607;
+		vrLoc = 1129;
+	};
+	CD8EF27E131CB64400E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 15";
+		rLen = 0;
+		rLoc = 426;
+		rType = 0;
+		vrLen = 1243;
+		vrLoc = 0;
+	};
+	CD8EF282131CB69B00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 82";
+		rLen = 0;
+		rLoc = 3284;
+		rType = 0;
+		vrLen = 1457;
+		vrLoc = 1650;
+	};
+	CD8EF288131CB6D400E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 91";
+		rLen = 0;
+		rLoc = 3284;
+		rType = 0;
+		vrLen = 1518;
+		vrLoc = 1650;
+	};
+	CD8EF28A131CB9B000E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* MitosisAppDelegate.h */;
+		name = "MitosisAppDelegate.h: 14";
+		rLen = 6;
+		rLoc = 303;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	CD8EF28B131CB9B000E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 65";
+		rLen = 0;
+		rLoc = 2842;
+		rType = 0;
+		vrLen = 1249;
+		vrLoc = 150;
+	};
+	CD8EF28C131CB9B000E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 48";
+		rLen = 770;
+		rLoc = 1338;
+		rType = 0;
+		vrLen = 1575;
+		vrLoc = 582;
+	};
+	CD8EF295131CBB0500E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 106";
+		rLen = 0;
+		rLoc = 3810;
+		rType = 0;
+		vrLen = 1341;
+		vrLoc = 1956;
+	};
+	CD8EF299131CBB4900E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 71";
+		rLen = 0;
+		rLoc = 3014;
+		rType = 0;
+		vrLen = 1632;
+		vrLoc = 1643;
+	};
+	CD8EF29E131CBB6600E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 71";
+		rLen = 0;
+		rLoc = 3014;
+		rType = 0;
+		vrLen = 1631;
+		vrLoc = 1643;
+	};
+	CD8EF2A2131CBBAD00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 106";
+		rLen = 0;
+		rLoc = 3619;
+		rType = 0;
+		vrLen = 1359;
+		vrLoc = 1956;
+	};
+	CD8EF2A9131CBD1F00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CD8EF273131CB5D800E8D6E6 /* NSFileManager.h */;
+		name = "NSFileManager.h: 184";
+		rLen = 43;
+		rLoc = 13646;
+		rType = 0;
+		vrLen = 3725;
+		vrLoc = 12142;
+	};
+	CD8EF2AA131CBD1F00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* MitosisAppDelegate.h */;
+		name = "MitosisAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 328;
+		rType = 0;
+		vrLen = 385;
+		vrLoc = 0;
+	};
+	CD8EF2AB131CBD1F00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 119";
+		rLen = 11;
+		rLoc = 3762;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 2281;
+	};
+	CD8EF2AC131CBD1F00E8D6E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MitosisAppDelegate.m */;
+		name = "MitosisAppDelegate.m: 38";
+		rLen = 0;
+		rLoc = 1020;
+		rType = 0;
+		vrLen = 1519;
+		vrLoc = 2300;
+	};
+}
