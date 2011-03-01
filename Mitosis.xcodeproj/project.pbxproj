@@ -21,35 +21,35 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = CD8EF159131B8E3A00E8D6E6 /* YAML.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* YAML.framework */;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = YAML;
 		};
 		CD8EF167131B8E3A00E8D6E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CD8EF159131B8E3A00E8D6E6 /* YAML.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EB6C420E124D99BE00886AD1 /* test */;
+			remoteGlobalIDString = EB6C420E124D99BE00886AD1;
 			remoteInfo = test;
 		};
 		CD8EF169131B8E3A00E8D6E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CD8EF159131B8E3A00E8D6E6 /* YAML.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EBE745C1124F8C0D00618049 /* test */;
+			remoteGlobalIDString = EBE745C1124F8C0D00618049;
 			remoteInfo = "test (spec12examples)";
 		};
 		CD8EF16B131B8E3A00E8D6E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CD8EF159131B8E3A00E8D6E6 /* YAML.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = EB2B5928124E2100001FFEEB /* events */;
+			remoteGlobalIDString = EB2B5928124E2100001FFEEB;
 			remoteInfo = events;
 		};
 		CD8EF171131B8E5900E8D6E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CD8EF159131B8E3A00E8D6E6 /* YAML.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* YAML */;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = YAML;
 		};
 /* End PBXContainerItemProxy section */

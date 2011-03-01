@@ -19,6 +19,7 @@
 - (void)createAndLoadConfig;
 - (void)findOrCreateMitosisConfig;
 - (NSString *)findGit;
+- (void)startTimerThread;
 
 @end
 
@@ -39,6 +40,8 @@
 	[self findOrCreateMitosisConfig];
 	
 	// Create a timer on a seperate thread that closes the app after 10 seconds if there are no running downloads.
+	[NSThread detachNewThreadSelector:@selector(startTimerThread) toTarget:self withObject:nil];
+
 }
 
 - (void)handleGetURLEvent:(NSAppleEventDescriptor *)event withReplyEvent:(NSAppleEventDescriptor *)replyEvent
@@ -120,5 +123,24 @@
 	gitNotFound = YES;
 	return @"/PATH_TO_YOUR_GIT";
 }
+
+- (void)checkJobs
+{
+	if ([jobs count] == 0) {
+		NSLog(@"No jobs processing after 10 seconds, Mitosis is exiting...");
+		[[NSApplication sharedApplication] terminate:self];
+	}
+}
+   
+- (void)startTimerThread
+{
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	NSTimer *jobTimeOutTimer = [NSTimer timerWithTimeInterval:10 target:self selector:@selector(checkJobs) userInfo:nil repeats:YES];
+	[[NSRunLoop currentRunLoop] addTimer:jobTimeOutTimer forMode:NSDefaultRunLoopMode];
+	[[NSRunLoop currentRunLoop] run];
+	[pool drain];
+}
+
+
 
 @end
