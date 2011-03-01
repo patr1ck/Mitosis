@@ -1,356 +1,0 @@
-TMitosis
-v7
-r0
-t320295467.536764
-cCheck dependencies
-cProcessInfoPlistFile /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Info.plist Mitosis-Info.plist
-cCopyStringsFile /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/patrick/Desktop/Mitosis/English.lproj/MainMenu.xib
-cCpResource build/Release/Mitosis.app/Contents/Resources/octocat.jpeg octocat.jpeg
-cProcessPCH /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cpopdujupnuypocnanrjfytvwmbd/Mitosis_Prefix.pch.gch Mitosis_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cnjzbpmiqmsiylbubabrrtfpotpw/Mitosis_Prefix.pch.gch Mitosis_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cibxjsffkqxmifaijsbdyxokpjon/Mitosis_Prefix.pch.gch Mitosis_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/main.o /Users/patrick/Desktop/Mitosis/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/MitosisAppDelegate.o /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/main.o /Users/patrick/Desktop/Mitosis/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/MitosisAppDelegate.o /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/main.o /Users/patrick/Desktop/Mitosis/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/MitosisAppDelegate.o /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004CAA740B00000000000000EE
-t1286239243
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004D005D57000000000000A5E0
-t1291869527
-s42464
-
-N/Users/patrick/Desktop/Mitosis/English.lproj/InfoPlist.strings
-c000000004D670D6A000000000000002D
-t1298599274
-s45
-
-N/Users/patrick/Desktop/Mitosis/English.lproj/MainMenu.xib
-c000000004D670D6A000000000002BB6B
-t1298599274
-s179051
-
-N/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.h
-c000000004D670F400000000000000157
-t1298599744
-s343
-i<Cocoa/Cocoa.h>
-
-N/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m
-c000000004D671978000000000000039E
-t1298602360
-s926
-i<YAML/YAMLSerialization.h>
-i"MitosisAppDelegate.h"
-
-N/Users/patrick/Desktop/Mitosis/Mitosis_Prefix.pch
-c000000004D670D6A0000000000000091
-t1298599274
-s145
-i<Cocoa/Cocoa.h>
-
-N/Users/patrick/Desktop/Mitosis/YAML.framework/build/Release/YAML.framework/YAML
-c000000004D671932000000000006A9D4
-t1298602290
-s436692
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/Mitosis
-t2
-s0
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/Mitosis.LinkFileList
-c000000004D671AA400000000000000D6
-t1298602660
-s214
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/MitosisAppDelegate.o
-t2
-s0
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/main.o
-t1298602667
-s4828
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/Mitosis
-t2
-s0
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/Mitosis.LinkFileList
-c000000004D671AA400000000000000D4
-t1298602660
-s212
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/MitosisAppDelegate.o
-t2
-s0
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/main.o
-t1298602667
-s4856
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/Mitosis
-t2
-s0
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/Mitosis.LinkFileList
-c000000004D671AA400000000000000DA
-t1298602660
-s218
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/MitosisAppDelegate.o
-t2
-s0
-
-N/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/main.o
-t1298602667
-s5032
-
-N/Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app
-t2
-s0
-
-N/Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app.dSYM
-t2
-s0
-
-N/Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Info.plist
-t1298602660
-s1157
-
-N/Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/MacOS/Mitosis
-t2
-s0
-
-N/Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/PkgInfo
-t1298602660
-s8
-
-N/Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1298602660
-s92
-
-N/Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Resources/English.lproj/MainMenu.nib
-t1298602661
-s34381
-
-N/Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Resources/octocat.jpeg
-t1298602660
-s32884
-
-N/Users/patrick/Desktop/Mitosis/main.m
-c000000004D670D6A0000000000000102
-t1298599274
-s258
-i<Cocoa/Cocoa.h>
-
-N/Users/patrick/Desktop/Mitosis/octocat.jpeg
-c000000004D6705AD0000000000008074
-t1298597293
-s32884
-
-N/var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cibxjsffkqxmifaijsbdyxokpjon/Mitosis_Prefix.pch.gch
-t1298602667
-s52823632
-
-N/var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cnjzbpmiqmsiylbubabrrtfpotpw/Mitosis_Prefix.pch.gch
-t1298602664
-s55592752
-
-N/var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cpopdujupnuypocnanrjfytvwmbd/Mitosis_Prefix.pch.gch
-t1298602664
-s52958992
-
-NMitosis-Info.plist
-c000000004D670DD000000000000004F9
-t1298599376
-s1273
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies320295460#320295460#0(0"0(0#1#0"8618590112#0"0#
-
-CCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/MitosisAppDelegate.o /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320295467.197563
-e320295467.360426
-r0
-xCompileC
-xbuild/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/MitosisAppDelegate.o
-x/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m:9:35: error: YAML/YAMLSerialization.h: No such file or directory
-lSLF07#2@59"Compile /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m320295467#320295467#0(117"/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m:9:35: error: YAML/YAMLSerialization.h: No such file or directory1(4@51"YAML/YAMLSerialization.h: No such file or directory320295467#0#117#0(6@51"/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m320295160#9#0#9#0#28"*: No such file or directory0(0#0#51"/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m8618681952#1453"    cd /Users/patrick/Desktop/Mitosis    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-generated-files.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-own-target-headers.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-all-target-headers.hmap -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-project-headers.hmap -F/Users/patrick/Desktop/Mitosis/build/Release -F/Users/patrick/Desktop/Mitosis -I/Users/patrick/Desktop/Mitosis/build/Release/include -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources/i386 -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources -include /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cnjzbpmiqmsiylbubabrrtfpotpw/Mitosis_Prefix.pch -c /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m -o /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/MitosisAppDelegate.o1#
-
-CCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/main.o /Users/patrick/Desktop/Mitosis/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s320295467.187424
-e320295467.384099
-r1
-xCompileC
-xbuild/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/main.o
-x/Users/patrick/Desktop/Mitosis/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@45"Compile /Users/patrick/Desktop/Mitosis/main.m320295467#320295467#0(0"0(0#0#37"/Users/patrick/Desktop/Mitosis/main.m8618911616#1425"    cd /Users/patrick/Desktop/Mitosis    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-generated-files.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-own-target-headers.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-all-target-headers.hmap -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-project-headers.hmap -F/Users/patrick/Desktop/Mitosis/build/Release -F/Users/patrick/Desktop/Mitosis -I/Users/patrick/Desktop/Mitosis/build/Release/include -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources/i386 -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources -include /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cnjzbpmiqmsiylbubabrrtfpotpw/Mitosis_Prefix.pch -c /Users/patrick/Desktop/Mitosis/main.m -o /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/main.o0#
-
-CCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/MitosisAppDelegate.o /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s320295467.384214
-e320295467.536677
-r0
-xCompileC
-xbuild/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/MitosisAppDelegate.o
-x/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m:9:35: error: YAML/YAMLSerialization.h: No such file or directory
-lSLF07#2@59"Compile /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m320295467#320295467#0(117"/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m:9:35: error: YAML/YAMLSerialization.h: No such file or directory1(4@51"YAML/YAMLSerialization.h: No such file or directory320295467#0#117#0(6@51"/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m320295160#9#0#9#0#28"*: No such file or directory0(0#0#51"/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m8618814144#1460"    cd /Users/patrick/Desktop/Mitosis    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-generated-files.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-own-target-headers.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-all-target-headers.hmap -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-project-headers.hmap -F/Users/patrick/Desktop/Mitosis/build/Release -F/Users/patrick/Desktop/Mitosis -I/Users/patrick/Desktop/Mitosis/build/Release/include -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources/ppc -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources -include /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cibxjsffkqxmifaijsbdyxokpjon/Mitosis_Prefix.pch -c /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m -o /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/MitosisAppDelegate.o1#
-
-CCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/main.o /Users/patrick/Desktop/Mitosis/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s320295467.360529
-e320295467.528187
-r1
-xCompileC
-xbuild/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/main.o
-x/Users/patrick/Desktop/Mitosis/main.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@45"Compile /Users/patrick/Desktop/Mitosis/main.m320295467#320295467#0(0"0(0#0#37"/Users/patrick/Desktop/Mitosis/main.m8618973504#1432"    cd /Users/patrick/Desktop/Mitosis    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-generated-files.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-own-target-headers.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-all-target-headers.hmap -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-project-headers.hmap -F/Users/patrick/Desktop/Mitosis/build/Release -F/Users/patrick/Desktop/Mitosis -I/Users/patrick/Desktop/Mitosis/build/Release/include -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources/ppc -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources -include /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cibxjsffkqxmifaijsbdyxokpjon/Mitosis_Prefix.pch -c /Users/patrick/Desktop/Mitosis/main.m -o /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/main.o0#
-
-CCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/MitosisAppDelegate.o /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s320295467.033435
-e320295467.187316
-r0
-xCompileC
-xbuild/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/MitosisAppDelegate.o
-x/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m:9:35: error: YAML/YAMLSerialization.h: No such file or directory
-lSLF07#2@59"Compile /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m320295467#320295467#0(117"/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m:9:35: error: YAML/YAMLSerialization.h: No such file or directory1(4@51"YAML/YAMLSerialization.h: No such file or directory320295467#0#117#0(6@51"/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m320295160#9#0#9#0#28"*: No such file or directory0(0#0#51"/Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m8618585824#1459"    cd /Users/patrick/Desktop/Mitosis    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-generated-files.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-own-target-headers.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-all-target-headers.hmap -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-project-headers.hmap -F/Users/patrick/Desktop/Mitosis/build/Release -F/Users/patrick/Desktop/Mitosis -I/Users/patrick/Desktop/Mitosis/build/Release/include -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources/x86_64 -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources -include /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cpopdujupnuypocnanrjfytvwmbd/Mitosis_Prefix.pch -c /Users/patrick/Desktop/Mitosis/MitosisAppDelegate.m -o /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/MitosisAppDelegate.o1#
-
-CCompileC build/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/main.o /Users/patrick/Desktop/Mitosis/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s320295467.032415
-e320295467.197456
-r1
-xCompileC
-xbuild/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/main.o
-x/Users/patrick/Desktop/Mitosis/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@45"Compile /Users/patrick/Desktop/Mitosis/main.m320295467#320295467#0(0"0(0#0#37"/Users/patrick/Desktop/Mitosis/main.m8604588288#1431"    cd /Users/patrick/Desktop/Mitosis    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-generated-files.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-own-target-headers.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-all-target-headers.hmap -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-project-headers.hmap -F/Users/patrick/Desktop/Mitosis/build/Release -F/Users/patrick/Desktop/Mitosis -I/Users/patrick/Desktop/Mitosis/build/Release/include -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources/x86_64 -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources -include /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cpopdujupnuypocnanrjfytvwmbd/Mitosis_Prefix.pch -c /Users/patrick/Desktop/Mitosis/main.m -o /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/main.o0#
-
-CCompileXIB /Users/patrick/Desktop/Mitosis/English.lproj/MainMenu.xib
-s320295460.956760
-e320295461.329643
-r1
-xCompileXIB
-x/Users/patrick/Desktop/Mitosis/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib320295460#320295461#0(0"0(0#0#57"/Users/patrick/Desktop/Mitosis/English.lproj/MainMenu.xib8617996928#342"    cd /Users/patrick/Desktop/Mitosis    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Resources/English.lproj/MainMenu.nib /Users/patrick/Desktop/Mitosis/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
-
-CCopyStringsFile /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s320295460.955716
-e320295460.984458
-r1
-xCopyStringsFile
-x/Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings320295460#320295460#0(0"0(0#0#62"/Users/patrick/Desktop/Mitosis/English.lproj/InfoPlist.strings8607615904#351"    cd /Users/patrick/Desktop/Mitosis    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Resources/English.lproj0#
-
-CCpResource build/Release/Mitosis.app/Contents/Resources/octocat.jpeg octocat.jpeg
-s320295460.984559
-e320295460.991318
-r1
-xCpResource
-xbuild/Release/Mitosis.app/Contents/Resources/octocat.jpeg
-xoctocat.jpeg
-lSLF07#2@17"Copy octocat.jpeg320295460#320295460#0(0"0(0#0#43"/Users/patrick/Desktop/Mitosis/octocat.jpeg8619562528#341"    cd /Users/patrick/Desktop/Mitosis    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/patrick/Desktop/Mitosis/octocat.jpeg /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Resources0#
-
-CCreateUniversalBinary /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/MacOS/Mitosis normal "x86_64 i386 ppc"
-r0
-
-CGenerateDSYMFile /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app.dSYM /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/MacOS/Mitosis
-r0
-
-CLd /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/i386/Mitosis normal i386
-r0
-
-CLd /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/ppc/Mitosis normal ppc
-r0
-
-CLd /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Objects-normal/x86_64/Mitosis normal x86_64
-r0
-
-CProcessInfoPlistFile /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Info.plist Mitosis-Info.plist
-s320295460.939496
-e320295460.951169
-r1
-xProcessInfoPlistFile
-x/Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Info.plist
-xMitosis-Info.plist
-lSLF07#2@26"Process Mitosis-Info.plist320295460#320295460#0(0"0(0#0#49"/Users/patrick/Desktop/Mitosis/Mitosis-Info.plist8618766720#290"    cd /Users/patrick/Desktop/Mitosis    builtin-infoPlistUtility Mitosis-Info.plist -genpkginfo /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cibxjsffkqxmifaijsbdyxokpjon/Mitosis_Prefix.pch.gch Mitosis_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-s320295464.436876
-e320295467.032272
-r1
-xProcessPCH
-x/var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cibxjsffkqxmifaijsbdyxokpjon/Mitosis_Prefix.pch.gch
-xMitosis_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile Mitosis_Prefix.pch320295464#320295467#0(0"0(0#0#49"/Users/patrick/Desktop/Mitosis/Mitosis_Prefix.pch8614981664#1347"    cd /Users/patrick/Desktop/Mitosis    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-generated-files.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-own-target-headers.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-all-target-headers.hmap -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-project-headers.hmap -F/Users/patrick/Desktop/Mitosis/build/Release -F/Users/patrick/Desktop/Mitosis -I/Users/patrick/Desktop/Mitosis/build/Release/include -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources/ppc -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources -c /Users/patrick/Desktop/Mitosis/Mitosis_Prefix.pch -o /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cibxjsffkqxmifaijsbdyxokpjon/Mitosis_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cnjzbpmiqmsiylbubabrrtfpotpw/Mitosis_Prefix.pch.gch Mitosis_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s320295461.330993
-e320295464.544175
-r1
-xProcessPCH
-x/var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cnjzbpmiqmsiylbubabrrtfpotpw/Mitosis_Prefix.pch.gch
-xMitosis_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile Mitosis_Prefix.pch320295461#320295464#0(0"0(0#0#49"/Users/patrick/Desktop/Mitosis/Mitosis_Prefix.pch8617931552#1339"    cd /Users/patrick/Desktop/Mitosis    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-generated-files.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-own-target-headers.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-all-target-headers.hmap -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-project-headers.hmap -F/Users/patrick/Desktop/Mitosis/build/Release -F/Users/patrick/Desktop/Mitosis -I/Users/patrick/Desktop/Mitosis/build/Release/include -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources/i386 -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources -c /Users/patrick/Desktop/Mitosis/Mitosis_Prefix.pch -o /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cnjzbpmiqmsiylbubabrrtfpotpw/Mitosis_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cpopdujupnuypocnanrjfytvwmbd/Mitosis_Prefix.pch.gch Mitosis_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s320295461.329776
-e320295464.436663
-r1
-xProcessPCH
-x/var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cpopdujupnuypocnanrjfytvwmbd/Mitosis_Prefix.pch.gch
-xMitosis_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile Mitosis_Prefix.pch320295461#320295464#0(0"0(0#0#49"/Users/patrick/Desktop/Mitosis/Mitosis_Prefix.pch8618007968#1343"    cd /Users/patrick/Desktop/Mitosis    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-generated-files.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-own-target-headers.hmap -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-all-target-headers.hmap -iquote /Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/Mitosis-project-headers.hmap -F/Users/patrick/Desktop/Mitosis/build/Release -F/Users/patrick/Desktop/Mitosis -I/Users/patrick/Desktop/Mitosis/build/Release/include -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources/x86_64 -I/Users/patrick/Desktop/Mitosis/build/Mitosis.build/Release/Mitosis.build/DerivedSources -c /Users/patrick/Desktop/Mitosis/Mitosis_Prefix.pch -o /var/folders/nw/nwgGHtU4GTmj+PSttw4lyE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mitosis_Prefix-cpopdujupnuypocnanrjfytvwmbd/Mitosis_Prefix.pch.gch0#
-
-CTouch /Users/patrick/Desktop/Mitosis/build/Release/Mitosis.app
-r0
-
