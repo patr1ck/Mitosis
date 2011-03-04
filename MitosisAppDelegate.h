@@ -10,9 +10,6 @@
 
 @interface MitosisAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
-	NSMutableArray *jobs;
-	NSDictionary *config;
-	BOOL gitNotFound;
 }
 
 @property (assign) IBOutlet NSWindow *window;
