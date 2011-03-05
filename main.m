@@ -8,7 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 #import "MitosisAppController.h"
-#import "MitosisAppDelegate.h"
 
 int main(int argc, char *argv[])
 {	

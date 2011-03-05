@@ -3,19 +3,12 @@
 //  Mitosis
 //
 //  Created by Patrick B. Gibson on 3/1/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <YAML/YAMLSerialization.h>
 
-#import "MitosisAppDelegate.h"
 #import "MitosisAppController.h"
-#import "MitosisJobHandler.h"
-
-#define kMitosisConfigPath			@"~/Library/Application Support/Mitosis/"
-#define kMitosisConfigFilename		@"config.yaml"
-#define kMitosisGitPath				@"Mitosis Git Path"
-#define kMitosisWorkingDirectory	@"Mitosis Working Directory"
+#import "MitosisCloneHandler.h"
 
 @interface MitosisAppController (Private)
 
@@ -27,7 +20,7 @@
 
 @implementation MitosisAppController
 
-@synthesize jobs;
+@synthesize jobs, config;
 
 - (id) init
 {
@@ -37,19 +30,34 @@
 		jobs = [[NSMutableArray alloc] initWithCapacity:10];
 		gitNotFound = NO;
 		
-		MitosisAppDelegate *delegate = [[MitosisAppDelegate alloc] init];
-		self.delegate = delegate;
-		//jobHandler = [[MitosisJobHandler alloc] initWithController:self];
-		
+		[self findOrCreateMitosisConfig];
+		[NSThread detachNewThreadSelector:@selector(startTimerThread) toTarget:self withObject:nil];
+				
 	}
 	return self;
 }
 
+#pragma mark URL Handling
 
 - (void)handleGetURLEvent:(NSAppleEventDescriptor *)event withReplyEvent:(NSAppleEventDescriptor *)replyEvent
 {
+	// Make sure we can run.
+	if (gitNotFound) {
+		NSAlert *alert = [NSAlert alertWithMessageText:@"Sorry, Mitosis isn't set up properly yet!"
+										 defaultButton:@"OK"
+									   alternateButton:nil
+										   otherButton:nil 
+							 informativeTextWithFormat:@"Check ~/Library/Application Support/Mitosis.config to make sure the path to git is correct and try again."];
+		NSImage *image = [NSImage imageNamed:@"octocat.jpeg"];
+		[alert setIcon:image];
+		[alert runModal];
+	}
+	
 	NSURL *url = [NSURL URLWithString:[[event paramDescriptorForKeyword:keyDirectObject] stringValue]];
-    NSLog(@"url = %@", url); 
+	
+	if (!url) {
+		return;
+	}
 	
 	// Make sure we aren't already downloading the URL
 	for (NSURL *inProgressURL in jobs) {
@@ -68,11 +76,11 @@
 	}
 	
 	[jobs addObject:url];
-	[[MitosisJobHandler alloc] initWithURL:url];
-	
+	MitosisCloneHandler *cloner = [[MitosisCloneHandler alloc] initWithURL:url];
+	[cloner start];
 }
 
-#pragma mark Private Methods
+#pragma mark Public Methods
 
 - (void)findOrCreateMitosisConfig
 {
@@ -86,10 +94,8 @@
 	} else {
 		NSError *error = nil;
 		NSArray *configArray = [YAMLSerialization YAMLWithData:yamlData options:kYAMLReadOptionImmutable|kYAMLReadOptionStringScalars error:&error];
-		config = [configArray objectAtIndex:0];
-		
-		NSLog(@"config: %@", config);
-		
+		config = [[configArray objectAtIndex:0] retain];
+				
 		if (error) {
 			NSLog(@"Error loading Mitosis config file: %@", [error localizedDescription]);
 			exit(1);
@@ -97,6 +103,8 @@
 	}
 	
 }
+
+#pragma mark Private Methods
 
 - (void)createAndLoadConfig
 {
