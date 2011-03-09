@@ -15,6 +15,7 @@
 - (void)createAndLoadConfig;
 - (NSString *)findGit;
 - (void)startTimerThread;
+- (void)findOrCreateMitosisConfig;
 
 @end
 
@@ -55,6 +56,7 @@
 	
 	NSURL *url = [NSURL URLWithString:[[event paramDescriptorForKeyword:keyDirectObject] stringValue]];
 	
+	// Make sure we're actually handling a URL
 	if (!url) {
 		return;
 	}
@@ -75,17 +77,18 @@
 		}
 	}
 	
+	// Add the url to the job list, create a window, and start cloning
 	[jobs addObject:url];
 	MitosisCloneHandler *cloner = [[MitosisCloneHandler alloc] initWithURL:url];
 	[cloner start];
 }
 
-#pragma mark Public Methods
+#pragma mark Private Methods
+
 
 - (void)findOrCreateMitosisConfig
 {
 	NSString *configFilePath = [[NSString stringWithFormat:@"%@/%@", kMitosisConfigPath, kMitosisConfigFilename, nil] stringByExpandingTildeInPath];
-	
 	NSData *yamlData = [NSData dataWithContentsOfFile:configFilePath];
 	
 	if (!yamlData) {
@@ -95,7 +98,7 @@
 		NSError *error = nil;
 		NSArray *configArray = [YAMLSerialization YAMLWithData:yamlData options:kYAMLReadOptionImmutable|kYAMLReadOptionStringScalars error:&error];
 		config = [[configArray objectAtIndex:0] retain];
-				
+		
 		if (error) {
 			NSLog(@"Error loading Mitosis config file: %@", [error localizedDescription]);
 			exit(1);
@@ -104,12 +107,10 @@
 	
 }
 
-#pragma mark Private Methods
 
 - (void)createAndLoadConfig
 {
 	NSString *gitPath = [self findGit];
-	
 	config = [[NSDictionary alloc] initWithObjectsAndKeys:gitPath, kMitosisGitPath, @"~/Code", kMitosisWorkingDirectory, nil];
 	
 	NSString *configDirectoryPath = [[NSString stringWithString:kMitosisConfigPath] stringByExpandingTildeInPath];
@@ -159,6 +160,7 @@
 
 - (void)checkJobs
 {
+	// If there's no jobs, we can quit, otherwise we should hang out.
 	if ([jobs count] == 0) {
 		NSLog(@"No jobs processing after 10 seconds, Mitosis is exiting...");
 		[[NSApplication sharedApplication] terminate:self];
@@ -171,9 +173,12 @@
 - (void)startTimerThread
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	NSTimer *jobTimeOutTimer = [NSTimer timerWithTimeInterval:10 target:self selector:@selector(checkJobs) userInfo:nil repeats:YES];
-	[[NSRunLoop currentRunLoop] addTimer:jobTimeOutTimer forMode:NSDefaultRunLoopMode];
+	
+	// Every 10 seconds, check to see if we should quit or not.
+	NSTimer *checkJobsTimer = [NSTimer timerWithTimeInterval:kCheckJobsInterval target:self selector:@selector(checkJobs) userInfo:nil repeats:YES];
+	[[NSRunLoop currentRunLoop] addTimer:checkJobsTimer forMode:NSDefaultRunLoopMode];
 	[[NSRunLoop currentRunLoop] run];
+	
 	[pool drain];
 }
 

@@ -34,16 +34,10 @@
 		// Create the window to handle the job process
 		[NSBundle loadNibNamed:@"MitosisCloneWindow" owner:self];
 		[window makeKeyAndOrderFront:self];
-		
-		
-		// This is potentially evil
-		[[NSApplication sharedApplication] activateIgnoringOtherApps:YES];
-		
-		//[window orderFrontRegardless];
-		//[window makeKeyWindow];
-		
 		[window setReleasedWhenClosed:YES];
 		
+		// Steal focus – This is potentially evil
+		[[NSApplication sharedApplication] activateIgnoringOtherApps:YES];
 		
 		// Get the title of the project and set it in the label
 		[label setStringValue:[NSString stringWithFormat:@"Cloning %@...", projectName, nil]];
@@ -60,18 +54,18 @@
 	[progressBar startAnimation:nil];
 	
 	// Get the config
-	MitosisAppController *app = (MitosisAppController *)[MitosisAppController sharedApplication];
-	NSString *workingDirectoryFromConfig = [(NSString *)[app.config objectForKey:kMitosisWorkingDirectory] stringByExpandingTildeInPath];
-	_gitPath = [[(NSString *)[app.config objectForKey:kMitosisGitPath] stringByExpandingTildeInPath] retain];
+	MitosisAppController *app = (MitosisAppController *) [MitosisAppController sharedApplication];
 	
+	// Get the working directory path
+	NSString *workingDirectoryFromConfig = [[app.config objectForKey:kMitosisWorkingDirectory] stringByExpandingTildeInPath];
 	// Make sure to add the trailing path if it's not there.
 	if ([workingDirectoryFromConfig characterAtIndex:([workingDirectoryFromConfig length] - 1)] != '/') {
 		workingDirectoryFromConfig = [[NSString alloc] initWithString:[workingDirectoryFromConfig stringByAppendingString:@"/"]];
 	}
-	
-	// Add the project name
 	_workingDirPath = [[NSString alloc] initWithString:[workingDirectoryFromConfig stringByAppendingString:projectName]];
 	
+	// Read the git path
+	_gitPath = [[[app.config objectForKey:kMitosisGitPath] stringByExpandingTildeInPath] retain];
 	
 	// Create the arguments array
 	NSString *gitURLString = [NSString stringWithFormat:@"git://%@%@", [url host], [url path], nil];
@@ -118,10 +112,11 @@
 		NSImage *image = [NSImage imageNamed:@"octocat.jpeg"];
 		[alert setIcon:image];
 		[alert runModal];
-	} else {
+	} else { // We should catch other termination statuses here and display appropriate error dialogs... and also not quit after 10s.
 		[[NSWorkspace sharedWorkspace] openFile:_workingDirPath];
 	}
 	
+	// Finish up on the main thread
 	dispatch_sync(dispatch_get_main_queue(), ^{
 		[self finishClone];
 	});
@@ -131,9 +126,11 @@
 
 - (void)finishClone
 {
+	// Remove from jobs list
 	MitosisAppController *app = (MitosisAppController *)[MitosisAppController sharedApplication];
 	[app.jobs removeObject:url];
 	
+	// Force termination if we're not done running.
 	if ([_gitTask isRunning]) {
 		[_gitTask terminate];
 	}

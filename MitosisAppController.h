@@ -13,6 +13,8 @@
 #define kMitosisGitPath				@"Mitosis Git Path"
 #define kMitosisWorkingDirectory	@"Mitosis Working Directory"
 
+#define kCheckJobsInterval			10
+
 @interface MitosisAppController : NSApplication {
 	NSMutableArray *jobs;
 	NSDictionary *config;
@@ -21,7 +23,5 @@
 
 @property (retain) NSMutableArray *jobs;
 @property (nonatomic, retain) NSDictionary *config;
-
-- (void)findOrCreateMitosisConfig;
 
 @end
