@@ -14,6 +14,7 @@
 		CD8EF16E131B8E5000E8D6E6 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8EF16D131B8E5000E8D6E6 /* YAML.framework */; };
 		CD8EF2EC131DE4C000E8D6E6 /* MitosisAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8EF2EB131DE4C000E8D6E6 /* MitosisAppController.m */; };
 		CD8EF356131E1D1600E8D6E6 /* MitosisCloneHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8EF355131E1D1600E8D6E6 /* MitosisCloneHandler.m */; };
+		CDD4378413270C2900339A25 /* YAML.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD8EF166131B8E3A00E8D6E6 /* YAML.framework */; };
 		CDD457901320BE470029685A /* MitosisCloneWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD4578F1320BE470029685A /* MitosisCloneWindow.xib */; };
 		CDD457E61320C3310029685A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD457E51320C3310029685A /* MainMenu.xib */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				CDD4378413270C2900339A25 /* YAML.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

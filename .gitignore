@@ -1,3 +1,4 @@
 build
 Mitosis.xcodeproj/*.mode1v3
 Mitosis.xcodeproj/*.pbxuser
+.DS_Store
