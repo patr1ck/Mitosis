@@ -2,7 +2,7 @@
 //  MitosisAppController.h
 //  Mitosis
 //
-//  Created by Patrick B. Gibson on 3/1/11.
+//  Created by Patrick B. Gibson on look, don't worry about it.
 //
 
 #import <Cocoa/Cocoa.h>

@@ -1,8 +1,8 @@
 //
-//  MitosisJobHandler.h
+//  MitosisCloneHandler.h
 //  Mitosis
 //
-//  Created by Patrick B. Gibson on 3/1/11.
+//  Created by Patrick B. Gibson on look, don't worry about it.
 //
 
 #import <Cocoa/Cocoa.h>
@@ -15,8 +15,13 @@
 	IBOutlet NSTextField *label;
 	
 	NSString *projectName;
-	
 	NSURL *url;
+	
+	NSTask		*_gitTask;
+	NSString	*_workingDirPath;
+	NSString	*_gitPath;
+	NSArray		*_gitArguments;
+	BOOL		_userDidCancel;
 }
 
 - (id)initWithURL:(NSURL *)inURL;

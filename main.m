@@ -2,8 +2,7 @@
 //  main.m
 //  Mitosis
 //
-//  Created by Patrick B. Gibson on 2/24/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Patrick B. Gibson on look, don't worry about it.
 //
 
 #import <Cocoa/Cocoa.h>
